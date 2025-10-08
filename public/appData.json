@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/9HxDtqsZ/Photo-Editor-Pro.png",
+    "title": "Photo Editor Pro",
+    "companyName": "Tech Innovations",
+    "id": 1,
+    "description": "Photo Editor Pro is a powerful and intuitive photo editing application suitable for both beginners and professional photographers. It offers a wide range of editing tools, including filters, retouching, cropping, and advanced effects, allowing users to create stunning visuals. The app supports high-resolution images, batch editing, and direct sharing to social media platforms, making it perfect for personal and professional projects alike. Additionally, it provides customizable templates, AI-powered enhancement suggestions, and layered editing options, giving users full creative control. The built-in tutorials and tips ensure that even novices can produce professional-quality results quickly and efficiently.",
+    "size": 50,
+    "reviews": 12,
+    "ratingAvg": 4.5,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 4 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8ggLJpBf/Weather-image.png",
+    "title": "Weather Now",
+    "companyName": "WeatherTech",
+    "id": 2,
+    "description": "Weather Now provides accurate and real-time weather updates for locations worldwide. Users can access detailed forecasts including temperature, humidity, wind speed, and precipitation. The app also features severe weather alerts, radar maps, and customizable notifications, helping users plan their day and stay safe during adverse conditions. Its intuitive interface ensures that even casual users can easily navigate and understand the weather information. Advanced features include hourly and weekly forecasts, interactive weather maps, historical data tracking, and smart weather widgets that integrate with the device home screen for quick access.",
+    "size": 30,
+    "reviews": 9,
+    "ratingAvg": 4.2,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 2 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZpMBr5w8/Fitness-Tracker.png",
+    "title": "Fitness Tracker",
+    "companyName": "HealthTech",
+    "id": 3,
+    "description": "Fitness Tracker is a complete health and activity monitoring app designed to help users reach their fitness goals. It tracks workouts, steps, calories burned, heart rate, and sleep patterns, providing personalized fitness insights. The app includes guided exercises, goal setting, and progress tracking, allowing users to stay motivated. Social features let users share achievements, join challenges, and compete with friends for additional engagement and motivation. Users can also set reminders for hydration, meal plans, and activity breaks, while the analytics dashboard provides detailed trends and visual summaries for long-term health monitoring.",
+    "size": 60,
+    "reviews": 15,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 7 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gv6d92NG/News-today.png",
+    "title": "News Today",
+    "companyName": "Media Corp",
+    "id": 4,
+    "description": "News Today keeps users updated with breaking news and in-depth articles from around the globe. It covers categories such as politics, technology, entertainment, sports, and health, providing comprehensive coverage. The app offers personalized news feeds, offline reading options, and push notifications for important events. Users can save articles, share them on social media, and access multimedia content such as videos and podcasts, all from a clean and user-friendly interface. Additional features include topic-based alerts, daily digests, editorial highlights, and the ability to follow favorite journalists, making it an all-in-one solution for staying informed.",
+    "size": 40,
+    "reviews": 11,
+    "ratingAvg": 4.3,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 3 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HptvVpLC/Language-Master.png",
+    "title": "Language Master",
+    "companyName": "EduTech",
+    "id": 5,
+    "description": "Language Master is an interactive language learning app that helps users master new languages efficiently. It offers lessons in multiple languages, covering vocabulary, grammar, conversation skills, and pronunciation. The app uses quizzes, exercises, and real-life scenarios to enhance learning and retention. Personalized progress tracking and adaptive lesson plans ensure that users stay challenged and engaged as they improve their language skills. Gamified features, achievement badges, and interactive speaking exercises encourage consistent practice, while community forums provide opportunities to practice with native speakers and exchange learning tips.",
+    "size": 70,
+    "reviews": 13,
+    "ratingAvg": 4.6,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 0 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 6 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KdpxHnR/Music-Stream.png",
+    "title": "Music Stream",
+    "companyName": "AudioTech",
+    "id": 6,
+    "description": "Music Stream allows users to listen to their favorite songs and podcasts anytime, anywhere. It offers curated playlists, offline listening, high-quality audio streaming, and personalized recommendations. Users can create and share playlists, explore trending music, and discover new artists. The app provides a smooth and user-friendly interface, supporting seamless music enjoyment for casual listeners and music enthusiasts alike. Additional features include live radio streaming, social sharing, lyrics display, and AI-driven suggestions based on listening habits, ensuring users always have music tailored to their tastes.",
+    "size": 80,
+    "reviews": 14,
+    "ratingAvg": 4.4,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 5 },
+      { "name": "5 star", "count": 5 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8DbzP7yy/Racipe-finder.png",
+    "title": "Recipe Finder",
+    "companyName": "CookTech",
+    "id": 7,
+    "description": "Recipe Finder is a culinary app that helps users discover new recipes and cooking tips. It includes step-by-step instructions, ingredient lists, and nutritional information for each recipe. Users can filter recipes by cuisine, difficulty, and dietary preferences. The app also supports saving favorite recipes, creating shopping lists, and sharing recipes with friends, making it an indispensable companion for cooking enthusiasts. The app additionally offers seasonal recommendations, video tutorials, chef-curated collections, and smart pantry suggestions based on ingredients users already have, making home cooking creative and fun.",
+    "size": 55,
+    "reviews": 9,
+    "ratingAvg": 4.1,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 2 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cHX1JjP/Travel-guide.png",
+    "title": "Travel Guide",
+    "companyName": "TravelTech",
+    "id": 8,
+    "description": "Travel Guide helps users plan trips and explore new destinations with ease. The app provides detailed guides, maps, travel itineraries, and tips for accommodations, transportation, and attractions. Users can discover hidden gems, read reviews, and create personalized travel plans. The app also offers offline access and language support, ensuring travelers can rely on it anywhere in the world. Additional features include local event alerts, sightseeing suggestions, budget tracking tools, and integration with navigation apps, making it an essential companion for both casual and frequent travelers.",
+    "size": 65,
+    "reviews": 10,
+    "ratingAvg": 4.3,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 3 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GZNMwBK/Taskmanager.png",
+    "title": "Task Manager",
+    "companyName": "Productivity Corp",
+    "id": 9,
+    "description": "Task Manager is an app designed to help users organize their daily tasks, set priorities, and improve productivity. Users can create to-do lists, set deadlines, receive reminders, and track progress. The app also offers collaboration features, allowing teams to assign tasks and monitor completion. With a clean interface and smart notifications, Task Manager helps users stay focused and efficient throughout their day. The app further provides recurring task scheduling, project categorization, visual progress charts, and integration with calendar apps, ensuring tasks are managed seamlessly across devices.",
+    "size": 45,
+    "reviews": 9,
+    "ratingAvg": 4.2,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 2 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VYHfDDZV/Budge-Tracker.png",
+    "title": "Budget Tracker",
+    "companyName": "FinanceTech",
+    "id": 10,
+    "description": "Budget Tracker helps users manage personal finances and monitor expenses effectively. It allows creating budgets, tracking spending, setting financial goals, and generating detailed reports. Users can categorize expenses, get insights on saving patterns, and receive alerts to stay on track. The app's user-friendly design and data visualization tools make financial management simple and stress-free. It also offers bill reminders, recurring payment tracking, debt management tools, and financial advice articles, helping users make smarter financial decisions over time.",
+    "size": 50,
+    "reviews": 11,
+    "ratingAvg": 4.5,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 4 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3Pk70f4/bahry-tb.png",
+    "title": "Bahry TV",
+    "companyName": "Bahry",
+    "id": 11,
+    "description": "Bahry TV is a marine-themed streaming service offering boating, ocean exploration, and aquatic adventure content. Users can watch documentaries, live events, tutorials, and entertainment shows related to marine life. The app features curated playlists, offline viewing, and personalized recommendations to make every ocean enthusiast's experience engaging and immersive. Additional features include expert commentary, virtual tours of aquatic environments, interactive maps, and educational modules for students and hobbyists interested in marine biology and ocean conservation.",
+    "size": 200,
+    "reviews": 15,
+    "ratingAvg": 4.6,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 5 },
+      { "name": "5 star", "count": 6 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkGPbWfN/NIntendo-Today.png",
+    "title": "Nintendo Today!",
+    "companyName": "Nintendo",
+    "id": 12,
+    "description": "Nintendo Today! is a digital calendar and news app providing updates on Nintendo products, events, and game releases. Users can view daily tips, important announcements, and upcoming gaming events. The app includes notifications, schedules, and reminders for game launches and competitions, keeping Nintendo fans informed and engaged with the latest happenings. Extra features include fan community posts, exclusive interviews with developers, game strategy tips, and integration with Nintendo consoles for direct event tracking and participation.",
+    "size": 100,
+    "reviews": 20,
+    "ratingAvg": 4.8,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 13 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cXwfzFQt/Setapp.png",
+    "title": "Setapp",
+    "companyName": "Setapp",
+    "id": 13,
+    "description": "Setapp is a subscription service providing access to over 250 high-quality macOS and iOS applications. Users can explore apps across categories like productivity, development, design, and utilities. The platform simplifies software management with regular updates, centralized billing, and easy installation, making it convenient for users to access premium apps without the hassle of multiple subscriptions. It also provides curated collections, expert recommendations, cross-device sync, and integration with Apple ecosystem features, ensuring seamless workflow for professionals and hobbyists alike.",
+    "size": 150,
+    "reviews": 18,
+    "ratingAvg": 4.7,
+    "downloads": 11,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 8 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/p6DfJ7M8/CapCut.webp",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 14,
+    "description": "CapCut is a professional video editing app with advanced tools for creating and editing videos. It offers transitions, effects, filters, and audio editing. Users can produce high-quality content for social media, personal projects, or professional use. The app supports multi-layer editing, keyframe animations, and direct sharing to platforms like TikTok, Instagram, and YouTube. Additional features include templates, AI-assisted editing suggestions, motion tracking, green screen support, and collaborative editing options, making it suitable for both beginners and professional video creators.",
+    "size": 200,
+    "reviews": 25,
+    "ratingAvg": 4.5,
+    "downloads": 14,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 12 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1YSQ5RqG/teleg.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 15,
+    "description": "Telegram is a cloud-based instant messaging app known for speed, security, and privacy. It supports text, voice, video messaging, group chats, and channels for broadcasting content. Users can send large files, create bots, and customize the interface. Telegram emphasizes privacy with end-to-end encryption, self-destructing messages, and two-step verification. It also offers secret chats, cloud storage, multiple device sync, extensive sticker collections, and robust API support for developers, making it a versatile tool for both personal and professional communication.",
+    "size": 120,
+    "reviews": 22,
+    "ratingAvg": 4.6,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 12 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DP1tRn9f/tiktik.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 16,
+    "description": "TikTok is a popular short-video platform for creating, sharing, and discovering viral videos. It offers editing tools, music overlays, and trending challenges. Users can follow creators, explore hashtags, and engage with content via likes, comments, and shares. The app is optimized for entertainment, creativity, and social interaction across a global audience. Additional features include live streaming, duets, AR effects, advanced analytics for creators, and personalized content feeds driven by AI algorithms, making TikTok both fun and engaging for users of all ages.",
+    "size": 250,
+    "reviews": 30,
+    "ratingAvg": 4.4,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 14 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMNbKN17/Instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 17,
+    "description": "Instagram is a photo and video-sharing social network allowing users to post content, follow friends, explore trends, and engage with creators. It features stories, reels, live streaming, and messaging. The app emphasizes visual storytelling and community interaction, providing tools for editing, sharing, and discovering creative content globally. Extra features include shopping integration, IGTV for long-form videos, collaborative reels, insights for creators, and algorithm-driven personalized feeds that enhance content discovery and engagement across the platform.",
+    "size": 200,
+    "reviews": 28,
+    "ratingAvg": 4.3,
+    "downloads": 13,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 15 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sJXtHywq/Whatsapp.webp",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 18,
+    "description": "WhatsApp is a messaging platform supporting text, voice, video, and group communication. It features end-to-end encryption for privacy and supports file sharing, status updates, and voice/video calls. The app is widely used for personal and business communication, providing a simple and reliable messaging experience across devices. Additional features include business accounts, catalog sharing, multi-device support, voice message transcription, group administration tools, and seamless integration with contacts, ensuring secure and convenient communication.",
+    "size": 150,
+    "reviews": 35,
+    "ratingAvg": 4.7,
+    "downloads": 14,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 5 },
+      { "name": "5 star", "count": 20 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5WxsFMqX/Spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Technology",
+    "id": 19,
+    "description": "Spotify is a music streaming service providing millions of songs, podcasts, and playlists. Users can create custom playlists, follow artists, and explore curated recommendations. The app supports offline playback, high-quality audio streaming, and personalized listening experiences. Social features allow sharing music and discovering content collaboratively. Additionally, Spotify offers curated playlists for moods and activities, podcast subscriptions, collaborative playlists, smart speaker integration, and personalized algorithmic recommendations to enhance the overall music and audio experience.",
+    "size": 220,
+    "reviews": 27,
+    "ratingAvg": 4.6,
+    "downloads": 13,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 15 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8DMyhCNn/Netflex.webp",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 20,
+    "description": "Netflix is a subscription-based streaming platform offering a vast library of TV shows, movies, and original content. Users can browse by genre, create watchlists, and access content offline. The app provides personalized recommendations, multi-device support, and parental controls, ensuring an enjoyable viewing experience for all audiences. It also features interactive content, behind-the-scenes extras, curated collections, new release alerts, and accessibility options, making Netflix a versatile entertainment platform suitable for viewers of all ages and interests.",
+    "size": 300,
+    "reviews": 32,
+    "ratingAvg": 4.8,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 6 },
+      { "name": "5 star", "count": 14 }
+    ]
+  }
+]
