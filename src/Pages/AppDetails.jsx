@@ -37,10 +37,12 @@ const AppDetails = () => {
     }
 
     const handleStoreApp = () => {
-        if (status) {
+        const existingApp = JSON.parse(localStorage.getItem('applist')) || [];
+
+        const alreadyInList = existingApp.some(item=> item.id === appData.id);
+        if (alreadyInList) {
             return;
         }
-        const existingApp = JSON.parse(localStorage.getItem('applist')) || [];
         const updatedAppList = [...existingApp,appData];
         localStorage.setItem('applist', JSON.stringify(updatedAppList));
     }

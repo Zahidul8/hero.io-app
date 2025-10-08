@@ -2,10 +2,12 @@ import React from 'react';
 import downloadIcon from '../assets/icon-downloads.png';
 import ratingIcon from '../assets/icon-ratings.png';
 
-const InstalledApps = ({app}) => {
-    console.log(app);
+const InstalledApps = ({app,handleRemove}) => {
 
-    const {image, title, downloads,ratingAvg,size} = app;
+    const {image, title, downloads,ratingAvg,size,id} = app;
+
+
+
     
     return (
         <div className='bg-white p-4 border-1 border-gray-300 mt-5 shadow-md rounded-2xl flex items-center justify-between'>
@@ -38,7 +40,7 @@ const InstalledApps = ({app}) => {
 
 
             <div>
-             <button className="btn bg-[#00D390] text-white py-[14px] px-8 font-semibold">Uninstall</button>
+             <button onClick={() => handleRemove(id)} className="btn bg-[#00D390] text-white py-[14px] px-8 font-semibold">Uninstall</button>
             </div>
             
         </div>
