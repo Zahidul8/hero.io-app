@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import InstalledApps from '../Components/InstalledApps';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Installation = () => {
 
-        const [appsStr, setAppsStr] = useState([]);
+    const [appsStr, setAppsStr] = useState([]);
 
     useEffect(() => {
         const storedData = JSON.parse(localStorage.getItem('applist'));
@@ -13,16 +14,42 @@ const Installation = () => {
         }
     }, [])
 
-    const handleRemove= (id) => {
-            const existingList = JSON.parse(localStorage.getItem('applist')) ||[];
 
-            const updatedList = existingList.filter(item => item.id !== id);
-            setAppsStr(updatedList);
-              localStorage.setItem('applist', JSON.stringify(updatedList));
+
+    const handleRemove = (id) => {
+
+
+        const existingList = JSON.parse(localStorage.getItem('applist')) || [];
+
+        const updatedList = existingList.filter(item => item.id !== id);
+        setAppsStr(updatedList);
+        localStorage.setItem('applist', JSON.stringify(updatedList));
+
+        toast('App Uninstalled Successfully !', {
+            position: 'top-center',
+        });
     }
-    
 
-  
+    const handleSort = (type) => {
+        if (type === 'high') {
+            const updatedList = [...appsStr].sort((a, b) => b.downloads - a.downloads);
+            console.log(updatedList);
+
+           return setAppsStr(updatedList);
+        } else if (type === 'low') {
+            const updatedList = [...appsStr].sort((a, b) => a.downloads - b.downloads);
+          return  setAppsStr(updatedList);
+
+        }
+
+        console.log('hello');
+
+
+    }
+
+
+
+
     return (
         <div className='py-[80px] max-w-[1440px] mx-auto'>
             <h2 className='text-[48px] font-bold text-[#001931] text-center'>Your Installed Apps</h2>
@@ -32,15 +59,23 @@ const Installation = () => {
             <div className='flex justify-between items-center'>
                 <h2 className='text-[24px] font-semibold text-[#001931]'>({appsStr.length}) Apps Found</h2>
 
-                <button className='btn'>Sort data</button>
+
+                <select defaultValue="Pick a color" className="select">
+                    <option disabled={true}>Sort apps</option>
+                    <option onClick={() => handleSort('high')}>High-Low</option>
+                    <option onClick={() => handleSort('low')}>Low-High</option>
+                </select>
+
             </div>
 
 
             <div>
                 {
-                    appsStr.map(app => <InstalledApps key={app.id} handleRemove = {handleRemove}  app = {app}></InstalledApps>)
+                    appsStr.map(app => <InstalledApps key={app.id} handleRemove={handleRemove} app={app}></InstalledApps>)
                 }
             </div>
+
+            <ToastContainer />
 
         </div>
     );

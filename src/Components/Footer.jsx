@@ -6,8 +6,8 @@ import linkdin from '../assets/linkdin.png'
 import facebook from '../assets/facebook.png'
 const Footer = () => {
     return (
-        <div className='py-[35px] bg-[#001931]'>
-            <div className='max-w-[1440px] mx-auto grid grid-cols-4 text-white gap-8 border-b border-gray-600 pb-4'>
+        <div className=' bg-[#001931]'>
+            <div className='max-w-[1440px] mx-auto grid grid-cols-4 text-white gap-8 border-b border-gray-600 pb-4 pt-[35px]'>
                 <div className='space-y-4 mr-8'>
                     <div><Link className='flex items-center gap-1 ' to='/'>
                         <img className='w-[40px]' src={logo} alt="" />
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             
-            <p className='text-center text-white pt-8'>Copyright © 2025 - All right reserved</p>
+            <p className='text-center text-white pt-8 pb-[35px]'>Copyright © 2025 - All right reserved</p>
         </div>
     );
 };

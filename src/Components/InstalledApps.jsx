@@ -6,6 +6,8 @@ const InstalledApps = ({app,handleRemove}) => {
 
     const {image, title, downloads,ratingAvg,size,id} = app;
 
+   
+    
 
 
     
