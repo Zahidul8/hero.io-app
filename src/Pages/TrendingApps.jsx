@@ -1,6 +1,6 @@
 import React from 'react';
 import useApps from '../Hooks/useApps';
-import App from '../Components/App';
+import Apps from '../Components/Apps';
 import { Link } from 'react-router';
 
 const TrendingApps = () => {
@@ -18,7 +18,7 @@ const TrendingApps = () => {
 
             <div className='py-10 max-w-[1440px] mx-auto grid grid-cols-4 gap-4'>
             {
-                reducedApp.map(app => <App key={app.id} app ={app}></App> )
+                reducedApp.map(app => <Apps key={app.id} app ={app}></Apps> )
             }
             </div>
 

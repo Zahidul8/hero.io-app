@@ -11,7 +11,7 @@ const NotFoundApp = () => {
                    </figure>
                    <div>
                        <h2 className='text-center text-[48px] text-[#001931] font-semibold'>Oops, App not found!</h2>
-                       <p className='text-[#627382] text-[20px] text-center'>The App you are looking for is not available.</p>
+                       <p className='text-[#627382] text-[20px] text-center'>The App you are requesting is not found on our system.  please try another apps</p>
        
                         <div className='flex justify-center pb-[80px] mt-3'>
                    <button onClick={() => navigate(-1)} className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white py-[14px] px-8 font-semibold">Go back</button>

@@ -15,6 +15,8 @@ const AppDetails = () => {
     const { apps, loading, error } = useApps();
     const [status, setStatus] = useState(false);
 
+
+
     const appData = apps.find(app => app.id === Number(id));
 
 
@@ -32,6 +34,9 @@ const AppDetails = () => {
         }
 
     }, [appData]);
+
+
+
 
 
 
@@ -63,6 +68,20 @@ const AppDetails = () => {
         localStorage.setItem('applist', JSON.stringify(updatedAppList));
     }
 
+
+           if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[80vh]">
+        <span className="loading loading-spinner loading-lg text-[#00D390]"></span>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <p className="text-center text-red-500 py-20">Failed to load app list.</p>
+    );
+  }
 
     return (
 

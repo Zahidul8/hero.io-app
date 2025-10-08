@@ -3,7 +3,7 @@ import downloadIcon from '../assets/icon-downloads.png';
 import ratingIcon from '../assets/icon-ratings.png';
 import { Link } from 'react-router';
 
-const App = ({app}) => {
+const Apps = ({app}) => {
 
     const {image, title, ratingAvg, downloads, id} = app;
     
@@ -34,4 +34,4 @@ const App = ({app}) => {
     );
 };
 
-export default App;
+export default Apps;
