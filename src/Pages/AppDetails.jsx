@@ -7,6 +7,7 @@ import ratingIcon from '../assets/icon-ratings.png';
 import iconReview from '../assets/icon-review.png';
 
 import RatingsChart from '../Components/RatingsChart';
+import NotFoundApp from './NotFoundApp';
 
 const AppDetails = () => {
 
@@ -33,7 +34,10 @@ const AppDetails = () => {
 
 
     return (
-        <div className='max-w-[1440px] mx-auto py-[80px]'>
+
+        <div>
+            {
+                appData?  <div className='max-w-[1440px] mx-auto py-[80px]'>
             <div className='flex gap-10 border-b border-gray-400 pb-12'>
                 <figure>
                     <img className='max-w-[350px] rounded-2xl' src={image} alt="" />
@@ -87,7 +91,10 @@ const AppDetails = () => {
             </div>
 
              <ToastContainer />
+        </div> : <NotFoundApp></NotFoundApp>
+            }
         </div>
+       
     );
 };
 
