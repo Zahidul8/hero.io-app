@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router';
+import { ToastContainer, toast } from 'react-toastify';
 import useApps from '../Hooks/useApps';
 import downloadIcon from '../assets/icon-downloads.png';
 import ratingIcon from '../assets/icon-ratings.png';
@@ -11,12 +12,24 @@ const AppDetails = () => {
 
     const { id } = useParams()
     const { apps, loading, error } = useApps();
+    const [status, setStatus] =useState(false);
 
     const appData = apps.find(app => app.id === Number(id));
 
     
 
     const { image, companyName, description, downloads, ratingAvg, ratings, reviews, size, title } = appData || {};
+
+
+    const handleStatus = () => {
+        if (status) {
+            return;
+        }
+        toast('App installed Successfully !',{
+      position: 'top-center',
+    });
+        setStatus(true);
+    }
 
 
     return (
@@ -54,8 +67,9 @@ const AppDetails = () => {
                     </div>
 
                     <div>
-                        <button className='btn bg-[#00D390] text-white text-[20px] font-semibold'>
-                            Install Now ({size}MB)
+                        <button onClick={handleStatus} className='btn bg-[#00D390] text-white text-[20px] font-semibold'>
+                            {status? 'Installed': `Install Now (${size}MB)`}
+                            
                         </button>
                     </div>
 
@@ -68,9 +82,11 @@ const AppDetails = () => {
             </div>
 
             <div>
-                <h2 className='text-2xl font-semibold text-[#001931]'>Description</h2>
+                <h2 className='text-3xl font-semibold text-[#001931] mb-4'>Description</h2>
                 <p className='text-[#627382] text-[20px]'>{description}</p>
             </div>
+
+             <ToastContainer />
         </div>
     );
 };
