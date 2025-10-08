@@ -21,15 +21,28 @@ const AppDetails = () => {
 
     const { image, companyName, description, downloads, ratingAvg, ratings, reviews, size, title } = appData || {};
 
+  
+    
+
 
     const handleStatus = () => {
         if (status) {
             return;
         }
         toast('App installed Successfully !',{
-      position: 'top-center',
-    });
+            position: 'top-center',
+        });
         setStatus(true);
+        handleStoreApp();
+    }
+
+    const handleStoreApp = () => {
+        if (status) {
+            return;
+        }
+        const existingApp = JSON.parse(localStorage.getItem('applist')) || [];
+        const updatedAppList = [...existingApp,appData];
+        localStorage.setItem('applist', JSON.stringify(updatedAppList));
     }
 
 

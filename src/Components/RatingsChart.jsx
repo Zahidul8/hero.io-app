@@ -3,13 +3,15 @@ import {  BarChart,  Bar,  XAxis,  YAxis,  CartesianGrid,  Tooltip,  ResponsiveC
 
 const RatingsChart = ({ratings}) => {
 
+   const sortedRating = [...(ratings || [])].sort((a,b) => b.count - a.count);
+;
   return (
     <div className="w-full h-[400px] my-[40px] pb-10 border-b border-gray-400">
       <h2 className="text-[#001931] text-3xl font-semibold"> Ratings </h2>
       <ResponsiveContainer>
         <BarChart
           layout="vertical"
-          data={ratings}
+          data={sortedRating}
           margin={{ top: 20, right: 30, bottom: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
