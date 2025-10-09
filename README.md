@@ -17,4 +17,4 @@ Whether you’re looking for the latest games, essential utilities, or must-have
 
 Technologies used: 
 
-This app is made with some powerful technologies. Tailwind-CSS, a utility-based framework to style the app and React, a component-based library which is used for its dynamic functionality. We also incorporeate to ensure the app provides the best user experience. So, this app is so much reliable for daily uses and you can use the app with complete confidence. 
+This app is made with some powerful technologies. Tailwind-CSS, a utility-based framework to style the app and React, a component-based library which is used for its dynamic functionality. We also incorporeate some technologies to ensure the app provides the best user experience. So, this app is so much reliable for daily uses and you can use the app with complete confidence. 
