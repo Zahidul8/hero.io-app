@@ -29,7 +29,7 @@ const Installation = () => {
         setAppsStr(updatedList);
         localStorage.setItem('applist', JSON.stringify(updatedList));
 
-        toast('App Uninstalled Successfully !', {
+        toast('App Uninstalled from your device !', {
             position: 'top-center',
         });
     }

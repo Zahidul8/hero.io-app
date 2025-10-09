@@ -11,7 +11,7 @@ const Apps = ({app}) => {
     
     return (
         <Link to={`/apps/${id}`}>
-        <div className='p-4 shadow-xl bg-white rounded-2xl min-h-[460px]'>
+        <div className='p-4 shadow-xl bg-white rounded-2xl min-h-[460px] hover:scale-103 transition ease-in-out duration-300'>
             <figure className=' flex justify-center'>
                 <img className='rounded-2xl w-full' src={image} alt="" />
             </figure>

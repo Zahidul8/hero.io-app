@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
                 <div><Link className='flex items-center gap-1 ' to='/'>
                 <img className='w-[40px]' src={logo} alt="" />
-                <span className='text-[#632EE3] font-bold'>HERO.IO</span>
+                <span className=' bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-bold'>HERO.IO</span>
                 </Link></div>
             </div>
             <div className="navbar-center hidden lg:flex">

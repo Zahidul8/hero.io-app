@@ -9,10 +9,11 @@ body {
 }
 
 .active {
-  color: #632EE3;
+  background: linear-gradient(to right, #632EE3, #9F62F2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: underline;
   text-decoration-color: #632EE3;
-
 }
 .banner-heading{
   font-size: clamp(1.75rem, 6vw, 72px);

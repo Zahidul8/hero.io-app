@@ -23,7 +23,7 @@ const TrendingApps = () => {
             </div>
 
             <div className='flex justify-center pb-[80px]'>
-            <Link to='/allapp' className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white py-[14px] px-8 font-semibold">Show All</Link>
+            <Link to='/allapp' className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white py-[14px] px-8 font-semibold hover:shadow-xl sha">Show All</Link>
             </div>
         </div>
     );

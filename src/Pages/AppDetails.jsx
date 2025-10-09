@@ -50,7 +50,7 @@ const AppDetails = () => {
             return;
         }
 
-        toast('App installed Successfully !', {
+        toast(`${title} app installed Successfully !`, {
             position: 'top-center',
         });
         setStatus(true);
