@@ -87,7 +87,7 @@ const Installation = () => {
                             <h2 className='text-[24px] font-semibold text-[#001931]'>({appsStr.length}) Apps Found</h2>
 
 
-                            <select defaultValue="Sort by size" className="select bg-white">
+                            <select defaultValue="Sort by size" className="select bg-white text-[#001931]">
                                 <option disabled={true}>Sort by size</option>
                                 <option onClick={() => handleSort('high')}>High-Low</option>
                                 <option onClick={() => handleSort('low')}>Low-High</option>

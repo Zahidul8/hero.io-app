@@ -58,8 +58,8 @@ const AllApp = () => {
                 <div className='flex flex-col md:flex-row justify-between items-center mt-6 space-y-4'>
                     <h2 className='text-[24px] font-semibold text-[#001931]'>({filteredApps.length}) Apps Found</h2>
 
-                    <label className="input">
-                        <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <label className="input bg-white">
+                        <svg className="h-[1em] opacity-50 text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                                 strokeLinejoin="round"
                                 strokeLinecap="round"
@@ -71,7 +71,7 @@ const AllApp = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input className='bg-white' onChange={handleSearch} value={search} type="search" required placeholder="Search" />
+                        <input className='bg-white text-black placeholder:text-gray-500' onChange={handleSearch} value={search} type="search" required placeholder="Search" />
                     </label>
                 </div>
 
