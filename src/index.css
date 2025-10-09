@@ -28,3 +28,10 @@ body {
 .page-heading {
   font-size: clamp(2.1rem, 6vw, 48px);
 }
+
+.rating-title {
+   font-size: clamp(1.5rem, 6vw, 40px);
+}
+.component-title {
+  font-size: clamp(1.5rem, 6vw, 30px);
+}

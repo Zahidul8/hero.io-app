@@ -7,9 +7,9 @@ import heroimage from '../assets/hero.png';
 const Banner = () => {
     return (
         <div className='py-[80px]'>
-            <div className='text-center'>
+            <div className='text-center px-2 2xl:px-0'>
                 <h3 className='banner-heading font-bold text-[#001931] max-w-[597px] mx-auto leading-20'>We Build <span className='text-[#632EE3]'>Productive</span> Apps</h3>
-                <p className='text-[#627382] max-w-[800px] mx-auto mt-4 p-2 md:p-0'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                <p className='text-[#627382] max-w-[800px] mx-auto mt-4  md:p-0'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
             <div className='flex items-center gap-3 justify-center mt-10'>
                 <Link className='btn border border-gray-300 py-4 ' to='https://play.google.com/store/games?device=windows' target='_blank'>

@@ -87,36 +87,36 @@ const AppDetails = () => {
 
         <div>
             {
-                appData ? <div className='max-w-[1440px] mx-auto py-[80px]'>
-                    <div className='flex gap-10 border-b border-gray-400 pb-12'>
+                appData ? <div className='max-w-[1440px] mx-auto py-[80px] px-3 2xl:px-0'>
+                    <div className='flex flex-col md:flex-row gap-10 border-b border-gray-400 pb-12'>
                         <figure>
-                            <img className='max-w-[350px] rounded-2xl' src={image} alt="" />
+                            <img className='w-full md:max-w-[350px]  rounded-2xl' src={image} alt="" />
                         </figure>
                         <div className='flex-1'>
                             <div className='border-b border-gray-400 pb-8'>
-                                <h1 className='text-[32px] font-bold text-[#001931]'>{title}</h1>
-                                <p className='text-[#627382] text-[20px]'>Developed by <span className='text-[#632EE3] font-semibold '>{companyName}</span></p>
+                                <h1 className='component-title font-bold text-[#001931]'>{title}</h1>
+                                <p className='text-[#627382] sm:text-[20px]'>Developed by <span className='text-[#632EE3] font-semibold '>{companyName}</span></p>
                             </div>
 
 
                             <div className='my-[30px] flex'>
-                                <div className='mr-[50px] space-y-2'>
-                                    <img className='w-[40px] h-[40px]' src={downloadIcon} alt="" />
+                                <div className='mr-[25px] sm:mr-[50px] md:mr-[25px] lg:mr-[50px] space-y-2'>
+                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={downloadIcon} alt="" />
                                     <p className='text-[#001931]'>Downloads</p>
-                                    <p className='text-[40px] font-extrabold text-[#001931]'>{downloads}M</p>
+                                    <p className='rating-title font-extrabold text-[#001931]'>{downloads}M</p>
                                 </div>
 
 
-                                <div className='mr-[50px] space-y-2'>
-                                    <img className='w-[40px] h-[40px]' src={ratingIcon} alt="" />
+                                <div className='mr-[25px] sm:mr-[50px] md:mr-[25px] lg:mr-[50px] space-y-2'>
+                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={ratingIcon} alt="" />
                                     <p className='text-[#001931]'>Average Ratings</p>
-                                    <p className='text-[40px] font-extrabold text-[#001931]'>{ratingAvg}</p>
+                                    <p className='rating-title font-extrabold text-[#001931]'>{ratingAvg}</p>
                                 </div>
 
                                 <div className=' space-y-2'>
-                                    <img className='w-[40px] h-[40px]' src={iconReview} alt="" />
+                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={iconReview} alt="" />
                                     <p className='text-[#001931]'>Total Reviews</p>
-                                    <p className='text-[40px] font-extrabold text-[#001931]'>{reviews}K</p>
+                                    <p className='rating-title font-extrabold text-[#001931]'>{reviews}K</p>
                                 </div>
                             </div>
 
@@ -136,8 +136,8 @@ const AppDetails = () => {
                     </div>
 
                     <div>
-                        <h2 className='text-3xl font-semibold text-[#001931] mb-4'>Description</h2>
-                        <p className='text-[#627382] text-[20px]'>{description}</p>
+                        <h2 className='component-title font-semibold text-[#001931] mb-4 '>Description</h2>
+                        <p className='text-[#627382]  sm:text-[20px] text-justify md:text-left'>{description}</p>
                     </div>
 
                     <ToastContainer />

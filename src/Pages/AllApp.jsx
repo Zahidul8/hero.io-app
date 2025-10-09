@@ -51,7 +51,7 @@ const AllApp = () => {
         <div>
 
 
-            <div className='max-w-[1440px] mx-auto py-[80px] px-3'>
+            <div className='max-w-[1440px] mx-auto py-[80px] px-3 2xl:px-0'>
                 <h2 className='page-heading font-bold text-[#001931] text-center'>Our All Applications</h2>
                 <p className='text-[#627382] md:text-[18px] lg:text-[20px] text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
@@ -83,7 +83,7 @@ const AllApp = () => {
                         </div>
                     ) : (
                              filteredApps.length === 0 ? <div className='mt-6'>
-                        <h2 className='text-[40px] text-gray-500 font-semibold text-center pb-5 '>No App Found</h2>
+                        <h2 className='rating-title text-gray-500 font-semibold text-center pb-5 '>No App Found</h2>
                         <div className='flex justify-center pb-[80px]'>
                             <Link onClick={handleAllApps} to='/allapp' className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white py-[14px] px-8 font-semibold">Show All Apps</Link>
                         </div>

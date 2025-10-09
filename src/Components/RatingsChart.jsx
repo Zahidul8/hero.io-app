@@ -7,12 +7,12 @@ const RatingsChart = ({ratings}) => {
 ;
   return (
     <div className="w-full h-[400px] my-[40px] pb-10 border-b border-gray-400">
-      <h2 className="text-[#001931] text-3xl font-semibold"> Ratings </h2>
+      <h2 className="text-[#001931] component-title font-semibold"> Ratings </h2>
       <ResponsiveContainer>
         <BarChart
           layout="vertical"
           data={sortedRating}
-          margin={{ top: 20, right: 30, bottom: 20 }}
+          margin={{ top: 20, bottom: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis type="number" />

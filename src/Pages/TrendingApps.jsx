@@ -16,7 +16,7 @@ const TrendingApps = () => {
                 <p className='text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
             </div>
 
-            <div className='py-10 max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-3'>
+            <div className='py-10 max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-3 2xl:px-0'>
             {
                 reducedApp.map(app => <Apps key={app.id} app ={app}></Apps> )
             }

@@ -12,22 +12,22 @@ const InstalledApps = ({app,handleRemove}) => {
 
     
     return (
-        <div className='bg-white p-4 border-1 border-gray-300 mt-5 shadow-md rounded-2xl flex items-center justify-between'>
+        <div className='bg-white p-2 sm:p-4 border-1 border-gray-300 mt-5 shadow-md rounded-2xl flex items-center justify-between'>
 
-            <div className='flex gap-6 items-center'>
+            <div className='flex gap-3 sm:gap-6 items-center'>
 
-            <figure>
-                <img className='w-[80px] h-[80px] rounded-2xl' src={image} alt="" />
+            <figure className='w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]'>
+                <img className=' rounded-2xl w-full min-w-[60px] min-h-[60px]' src={image} alt="" />
             </figure>
             <div>
-                <h2 className='text-[20px] font-medium'>{title}</h2>
+                <h2 className='  md:text-[20px] font-medium'>{title}</h2>
 
-                <div className='flex items-center gap-5'>
-                <span className='flex items-center gap-2'>
+                <div className='flex items-center gap-3 sm:gap-5 text-[14px] sm:text-[16px]'>
+                <span className='flex items-center gap-1 sm:gap-2'>
                     <img className='w-4 h-4' src={downloadIcon} alt="" />
                     <span>{downloads}M</span>
                 </span>
-                <span className='flex items-center gap-2'>
+                <span className='flex items-center gap-1 sm:gap-2'>
                     <img className='w-4 h-4' src={ratingIcon} alt="" />
                     <span>{ratingAvg}</span>
                 </span>
@@ -42,7 +42,7 @@ const InstalledApps = ({app,handleRemove}) => {
 
 
             <div>
-             <button onClick={() => handleRemove(id)} className="btn bg-[#00D390] text-white py-[14px] px-8 font-semibold">Uninstall</button>
+             <button onClick={() => handleRemove(id)} className=" bg-[#00D390] text-white text-[14px] sm:text-[16px] py-2 sm:py-[12px] px-3 sm:px-8 rounded-md font-semibold">Uninstall</button>
             </div>
             
         </div>
