@@ -7,14 +7,14 @@ import facebook from '../assets/facebook.png'
 const Footer = () => {
     return (
         <div className=' bg-[#001931]'>
-            <div className='max-w-[1440px] mx-auto grid grid-cols-4 text-white gap-8 border-b border-gray-600 pb-4 pt-[35px]'>
-                <div className='space-y-4 mr-8'>
+            <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-white gap-10 lg:gap-8 border-b border-gray-600 pb-6 px-3 pt-[35px]'>
+                <div className='space-y-4 lg:mr-8'>
                     <div><Link className='flex items-center gap-1 ' to='/'>
                         <img className='w-[40px]' src={logo} alt="" />
                         <span className='text-white font-bold'>HERO.IO</span>
                     </Link></div>
 
-                    <p className='text-white'>Hero.io is a powerful all-in-one platform that brings your favorite apps and digital services together in one seamless experience. Instead of switching between dozens of different apps, Hero.io gives you a single, smart hub where everything works — faster, simpler, and more connected.</p>
+                    <p className='text-white text-justify lg:text-left'>Hero.io is a powerful all-in-one platform that brings your favorite apps and digital services together in one seamless experience. Instead of switching between dozens of different apps, Hero.io gives you a single, smart hub where everything works — faster, simpler, and more connected.</p>
                 </div>
                 <div className='space-y-4'>
                     <h2 className='text-[18px] font-semibold'>Services</h2>

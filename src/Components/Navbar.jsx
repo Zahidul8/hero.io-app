@@ -5,7 +5,7 @@ import githubLogo from '../assets/github.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 px-[80px]">
+        <div className="navbar bg-base-100 px-2 md:px-4 lg:px-[80px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

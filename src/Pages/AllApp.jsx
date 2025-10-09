@@ -51,11 +51,11 @@ const AllApp = () => {
         <div>
 
 
-            <div className='max-w-[1440px] mx-auto py-[80px]'>
-                <h2 className='text-[48px] font-bold text-[#001931] text-center'>Our All Applications</h2>
-                <p className='text-[#627382] text-[20px] text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
+            <div className='max-w-[1440px] mx-auto py-[80px] px-3'>
+                <h2 className='page-heading font-bold text-[#001931] text-center'>Our All Applications</h2>
+                <p className='text-[#627382] md:text-[18px] lg:text-[20px] text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
-                <div className='flex justify-between items-center'>
+                <div className='flex flex-col md:flex-row justify-between items-center mt-6 space-y-4'>
                     <h2 className='text-[24px] font-semibold text-[#001931]'>({filteredApps.length}) Apps Found</h2>
 
                     <label className="input">
@@ -87,7 +87,7 @@ const AllApp = () => {
                         <div className='flex justify-center pb-[80px]'>
                             <Link onClick={handleAllApps} to='/allapp' className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white py-[14px] px-8 font-semibold">Show All Apps</Link>
                         </div>
-                    </div> : <div className='py-10 max-w-[1440px] mx-auto grid grid-cols-4 gap-4'>
+                    </div> : <div className='py-10 max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 '>
                         {
                             filteredApps.map(app => <Apps key={app.id} app={app}></Apps>)
                         }
