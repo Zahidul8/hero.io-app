@@ -12,11 +12,11 @@ const Banner = () => {
                 <p className='text-[#627382] max-w-[800px] mx-auto mt-4  md:p-0'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
             <div className='flex items-center gap-3 justify-center mt-10'>
-                <Link className='btn border border-gray-300 py-4 ' to='https://play.google.com/store/games?device=windows' target='_blank'>
+                <Link className='btn border bg-white border-gray-300 py-4 ' to='https://play.google.com/store/games?device=windows' target='_blank'>
                 <img src={playstore} alt="" />
                 <p className='text-[#001931]'>Google Play</p>
                 </Link>
-                <Link className='btn border border-gray-300 py-4 ' to='https://www.apple.com/app-store' target='_blank'>
+                <Link className='btn border  bg-white border-gray-300 py-4 ' to='https://www.apple.com/app-store' target='_blank'>
                 <img src={appstore} alt="" />
                 <p className='text-[#001931]'>App Store</p>
                 </Link>

@@ -71,7 +71,7 @@ const AllApp = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input onChange={handleSearch} value={search} type="search" required placeholder="Search" />
+                        <input className='bg-white' onChange={handleSearch} value={search} type="search" required placeholder="Search" />
                     </label>
                 </div>
 

@@ -30,7 +30,7 @@ body {
 }
 
 .rating-title {
-   font-size: clamp(1.5rem, 6vw, 40px);
+   font-size: clamp(1.2rem, 6vw, 40px);
 }
 .component-title {
   font-size: clamp(1.5rem, 6vw, 30px);

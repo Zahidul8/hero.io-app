@@ -101,27 +101,27 @@ const AppDetails = () => {
 
                             <div className='my-[30px] flex'>
                                 <div className='mr-[25px] sm:mr-[50px] md:mr-[25px] lg:mr-[50px] space-y-2'>
-                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={downloadIcon} alt="" />
-                                    <p className='text-[#001931]'>Downloads</p>
+                                    <img className='w-[25px] h-[25px] sm:w-[40px] sm:h-[40px]' src={downloadIcon} alt="" />
+                                    <p className='text-[#001931] text-[14px] sm:text-[16px]'>Downloads</p>
                                     <p className='rating-title font-extrabold text-[#001931]'>{downloads}M</p>
                                 </div>
 
 
                                 <div className='mr-[25px] sm:mr-[50px] md:mr-[25px] lg:mr-[50px] space-y-2'>
-                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={ratingIcon} alt="" />
-                                    <p className='text-[#001931]'>Average Ratings</p>
+                                    <img className='w-[25px] h-[25px] sm:w-[40px] sm:h-[40px]' src={ratingIcon} alt="" />
+                                    <p className='text-[#001931] text-[14px] sm:text-[16px]'>Average Ratings</p>
                                     <p className='rating-title font-extrabold text-[#001931]'>{ratingAvg}</p>
                                 </div>
 
                                 <div className=' space-y-2'>
-                                    <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]' src={iconReview} alt="" />
-                                    <p className='text-[#001931]'>Total Reviews</p>
+                                    <img className='w-[25px] h-[25px] sm:w-[40px] sm:h-[40px]' src={iconReview} alt="" />
+                                    <p className='text-[#001931] text-[14px] sm:text-[16px]'>Total Reviews</p>
                                     <p className='rating-title font-extrabold text-[#001931]'>{reviews}K</p>
                                 </div>
                             </div>
 
                             <div>
-                                <button onClick={handleStatus} className='btn bg-[#00D390] text-white text-[20px] font-semibold'>
+                                <button onClick={handleStatus} className='btn bg-[#00D390] text-white text-[18px] sm:text-[20px] font-semibold'>
                                     {status ? 'Installed' : `Install Now (${size}MB)`}
 
                                 </button>

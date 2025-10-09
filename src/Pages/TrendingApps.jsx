@@ -12,7 +12,7 @@ const TrendingApps = () => {
     return (
         <div>
             <div>
-                <h2 className='page-heading font-bold text-center'>Trending Apps</h2>
+                <h2 className='page-heading font-bold text-center text-[#001931]'>Trending Apps</h2>
                 <p className='text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
             </div>
 

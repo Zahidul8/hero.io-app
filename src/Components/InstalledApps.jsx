@@ -7,8 +7,6 @@ const InstalledApps = ({app,handleRemove}) => {
     const {image, title, downloads,ratingAvg,size,id} = app;
 
    
-    
-
 
     
     return (
@@ -20,19 +18,19 @@ const InstalledApps = ({app,handleRemove}) => {
                 <img className=' rounded-2xl w-full min-w-[60px] min-h-[60px]' src={image} alt="" />
             </figure>
             <div>
-                <h2 className='  md:text-[20px] font-medium'>{title}</h2>
+                <h2 className='md:text-[20px] font-medium text-[#001931]'>{title}</h2>
 
                 <div className='flex items-center gap-3 sm:gap-5 text-[14px] sm:text-[16px]'>
                 <span className='flex items-center gap-1 sm:gap-2'>
                     <img className='w-4 h-4' src={downloadIcon} alt="" />
-                    <span>{downloads}M</span>
+                    <span className='text-[#001931]'>{downloads}M</span>
                 </span>
                 <span className='flex items-center gap-1 sm:gap-2'>
                     <img className='w-4 h-4' src={ratingIcon} alt="" />
-                    <span>{ratingAvg}</span>
+                    <span className='text-[#001931]'>{ratingAvg}</span>
                 </span>
             
-                    <span>{size} MB</span>
+                    <span className='text-[#001931]'>{size} MB</span>
                 </div>
 
             </div>
