@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div className='py-[80px]'>
             <div className='text-center px-2 2xl:px-0'>
-                <h3 className='banner-heading font-bold text-[#001931] max-w-[597px] mx-auto leading-20'>We Build <span className='text-[#632EE3]'>Productive</span> Apps</h3>
+                <h3 className='banner-heading font-bold text-[#001931] max-w-[597px] mx-auto sm:leading-20'>We Build <span className='text-[#632EE3]'>Productive</span> Apps</h3>
                 <p className='text-[#627382] max-w-[800px] mx-auto mt-4  md:p-0'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
             <div className='flex items-center gap-3 justify-center mt-10'>
@@ -27,7 +27,7 @@ const Banner = () => {
                 <img src={heroimage} alt="" />
             </div>
             <div className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-[80px] text-white '>
-                <h1 className='cart-heading font-semibold text-center'>Trusted by Millions, Built for You</h1>
+                <h1 className='cart-heading font-semibold text-center px-2 2xl:px-0'>Trusted by Millions, Built for You</h1>
 
                 <div className='grid grid-cols-1 lg:grid-cols-3 max-w-[1076px] mx-auto gap-15 lg:gap-6 mt-10'>
                     <div className='text-center'>
