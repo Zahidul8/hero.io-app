@@ -2,6 +2,8 @@
 
 Hero.io – Discover, Download, and Enjoy Your Favorite Apps!
 
+Project live link: https://hero-io-app.netlify.app/
+
 Hero.io is your all-in-one app hub, making it easier than ever to find and download the apps you need. Explore a wide range of curated apps, from productivity tools to entertainment, all in one place. With Hero.io, you can:
 
 1. Browse popular and trending apps
